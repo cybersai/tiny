@@ -1,0 +1,26 @@
+{
+    "name": "cybersai/tiny",
+    "description": "Tiny MVC framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaac Sai",
+            "email": "isaacsai030@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "controllers"
+        },
+        "files": [
+            "utils/helpers.php"
+        ]
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "nikic/fast-route": "^1.3",
+        "dibi/dibi": "^4.2"
+    }
+}
